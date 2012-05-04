@@ -35,7 +35,7 @@ public class HelloAndroidActivity extends Activity {
         AlertDialog alertDialog;
         alertDialog = new AlertDialog.Builder(this).create();
         // alertDialog.setTitle("Android");
-        alertDialog.setMessage("Hello there!");
+        alertDialog.setMessage("Hello there! Foo bar!");
         alertDialog.show();
     }
 }
