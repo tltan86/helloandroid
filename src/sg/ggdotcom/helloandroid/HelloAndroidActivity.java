@@ -38,10 +38,14 @@ public class HelloAndroidActivity extends Activity {
         alertDialog.setMessage("Hello");
         alertDialog.show();
 		
-		// AlertDialog alertDialog;
         alertDialog = new AlertDialog.Builder(this).create();
         alertDialog.setTitle("Alert Dialog #2");
         alertDialog.setMessage("Android!");
+        alertDialog.show();
+        
+        alertDialog = new AlertDialog.Builder(this).create();
+        alertDialog.setTitle("Alert Dialog #3");
+        alertDialog.setMessage("Foo bar");
         alertDialog.show();
     }
 }
