@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hello Android</string>
-	<string name="msg01">Hello World</string>
+    <string name="activity_main_title">Main Activity</string>
+    <string name="button_draw">Lucky Draw</string>
+    <string name="button_go">Go next Activity</string>
+    <string name="edit_message"></string>
 </resources>

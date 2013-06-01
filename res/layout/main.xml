@@ -18,10 +18,20 @@
 	-->
 	
 	<Button 
-		android:id="@+id/btn_main_menu_single"
+		android:id="@+id/btn_main_draw"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-		android:layout_gravity="center_horizontal"
-		android:layout_marginBottom="15dip"
-		android:text="Draw" />
+		android:text="@string/button_draw" />
+	
+	<EditText android:id="@+id/edit_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message" />
+	
+	<Button 
+		android:id="@+id/btn_main_go"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/button_go" />
+	
 </LinearLayout>
