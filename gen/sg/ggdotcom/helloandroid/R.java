@@ -17,6 +17,13 @@ public final class R {
         public static final int btn_main_draw=0x7f050000;
         public static final int btn_main_go=0x7f050002;
         public static final int edit_message=0x7f050001;
+        public static final int progressBar1=0x7f050007;
+        public static final int progressBar2=0x7f050008;
+        public static final int progressBar3=0x7f050009;
+        public static final int textView1=0x7f050006;
+        public static final int textView2=0x7f050003;
+        public static final int textView3=0x7f050004;
+        public static final int textView4=0x7f050005;
     }
     public static final class layout {
         public static final int main=0x7f030000;
